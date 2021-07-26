@@ -26,7 +26,7 @@ while True:
         cv2.rectangle(frame, ((0,frame.shape[0] -25)),(270, frame.shape[0]), (255,255,255), -1)
         cv2.putText(frame, "Number of faces detected: " + str(faces.shape[0]), (0,frame.shape[0] -10), cv2.FONT_HERSHEY_TRIPLEX, 0.5,  (0,0,0), 1)
       
-    cv2.imshow('Image with faces',frame)
+cv2.imshow('Image with faces',frame)
 capture.release()
 cv2.waitKey(0)
 cv2.destroyAllWindows()
