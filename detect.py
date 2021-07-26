@@ -3,7 +3,6 @@ import numpy
 import imutils
 import cv2
 import subprocess as sp
-import argparse
 import os
 from imutils.object_detection import non_max_suppression
 
